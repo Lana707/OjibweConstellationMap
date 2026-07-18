@@ -24,7 +24,8 @@
         "id": "mer",
         "desig": "Mer",
         "en": "Mercury",
-        "sym": "☿"
+        "sym": "☿",
+        "oj": ""
     },
     "ven": {
         "name": "Venus",
@@ -79,7 +80,8 @@
         "id": "ter",
         "desig": "Ter",
         "en": "Earth",
-        "sym": "♁"
+        "sym": "♁",
+        "oj": "Aki"
     },
     "mar": {
         "name": "Mars",
@@ -106,7 +108,8 @@
         "id": "mar",
         "desig": "Mar",
         "en": "Mars",
-        "sym": "♂"
+        "sym": "♂",
+        "oj": ""
     },
     "jup": {
         "name": "Jupiter",
@@ -139,7 +142,7 @@
         "desig": "Jup",
         "en": "Jupiter",
         "sym": "♃",
-        "oj":"Zhaawan-anang"
+        "oj": ""
     },
     "sat": {
         "name": "Saturn",
@@ -171,7 +174,8 @@
         "id": "sat",
         "desig": "Sat",
         "en": "Saturn",
-        "sym": "♄"
+        "sym": "♄",
+        "oj": ""
     },
     "ura": {
         "name": "Uranus",
@@ -203,7 +207,8 @@
         "id": "ura",
         "desig": "Ura",
         "en": "Uranus",
-        "sym": "♅"
+        "sym": "♅",
+        "oj": ""
     },
     "nep": {
         "name": "Neptune",
@@ -235,7 +240,8 @@
         "id": "nep",
         "desig": "Nep",
         "en": "Neptune",
-        "sym": "♆"
+        "sym": "♆",
+        "oj": ""
     },
     "plu": {
         "name": "Pluto",
@@ -262,7 +268,8 @@
         "id": "plu",
         "desig": "Plu",
         "en": "Pluto",
-        "sym": "♇"
+        "sym": "♇",
+        "oj": ""
     },
     "eri": {
         "desig": "Eri",
@@ -282,7 +289,8 @@
         ],
         "id": "eri",
         "en": "Eris",
-        "sym": "⚹"
+        "sym": "⚹",
+        "oj": ""
     },
     "mak": {
         "desig": "136472",
@@ -339,7 +347,8 @@
         ],
         "id": "ves",
         "en": "Vesta",
-        "sym": "⚶"
+        "sym": "⚶",
+        "oj": ""
     },
     "cer": {
         "desig": "Cer",

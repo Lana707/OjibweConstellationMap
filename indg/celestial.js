@@ -1540,10 +1540,10 @@
       style: { fill: "#ffffff", opacity: 1 }, // Default style for stars
       designation: true, // Show star names (Bayer, Flamsteed, Variable star, Gliese or designation, 
       // i.e. whichever of the previous applies first); may vary with culture setting
-      designationType: "desig",  // Which kind of name is displayed as designation (fieldname in starnames.json)
+      designationType: "iau",  // Which kind of name is displayed as designation (fieldname in starnames.json)
       designationStyle: { fill: "#ddddbb", font: "11px 'Palatino Linotype', Georgia, Times, 'Times Roman', serif", align: "left", baseline: "top" },
       designationLimit: 2.5,  // Show only names for stars brighter than nameLimit
-      propername: false,   // Show proper name (if present)
+      propername: true,   // Show proper name (if present)
       propernameType: "name", // Field in starnames.json that contains proper name; may vary with culture setting
       propernameStyle: { fill: "#ddddbb", font: "13px 'Palatino Linotype', Georgia, Times, 'Times Roman', serif", align: "right", baseline: "bottom" },
       propernameLimit: 1.5,  // Show proper names for stars brighter than propernameLimit
@@ -1918,11 +1918,9 @@
       "iau": {
         "symbol": {
           "symbol": "\u263e Symbol",
-          "letter": "\u216c Letter",
           "disk": "\u25cf Disk"
         },
         "names": {
-          "desig": "Designation",
           "en": "English",
           "oj": "Ojibwe"
         }
