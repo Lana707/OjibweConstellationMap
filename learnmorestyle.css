@@ -1,4 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+
 
 body {
-  overflow-x: hidden; /*Hide anything too big to fit and removes ugly horizontal scroll bar*/
+  overflow-x: hidden;
+  /*Hide anything too big to fit and removes ugly horizontal scroll bar*/
+
+}
+
+h1
+/*Make big top text centered*/
+
+  {
+  text-align: center;
+  font-family: "Playfair Display";
+}
+
+/*unordered list so the grouping of links in nav bar*/
+
+ul {
+  padding-top: 1em;
+  padding-bottom: 0em;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-right: 3em;
+  font-family: "quicksand";
+  gap: 29em;
+}
+
+/*list item with link*/
+li a {
+  text-decoration: none;
+  color: rgb(97, 96, 96);
+  margin-left: 19em;
+}
+
+/*header includes h1 and nav bar*/
+header {
+  margin-bottom: 1em;
+}
+
+/*text for explore map*/
+.current a {
+  padding: 0.9em;
+  color: black;
+  margin-left: 10em;
+  font-weight: 500;
+}
+
+/*line under explore map*/
+#firsthr {
+  background-color: rgb(190, 191, 196);
+  width: 49%;
+  height: 0.05em;
+  margin-left: 0.05em;
+  display: inline-block;
+  border: rgb(190, 191, 196) solid 0.05em;
+}
+
+/*line under learn more*/
+#secondhr {
+  background-color: rgb(52, 51, 51);
+  width: 50%;
+  height: 0.05em;
+  display: inline-block;
+  border: rgb(52, 51, 51) solid 0.05em;
+}
+
+/*Kept mostly the same as on explore page (copy pasted)^*/
+
+footer {
+    text-align: center;
+    background-color: rgb(190, 191, 196);
+    color: black;
+    margin: -1em;
+    margin-top: 0.5em;
+    padding: 0.2em;
+    font-family: "quicksand";
 }
